@@ -99,7 +99,12 @@ const NR1LandingPage: React.FC = () => {
     nome: '',
     email: '',
     telefone: '',
-    quantidade_funcionarios: ''
+    quantidade_funcionarios: '',
+    utm_source: '',
+    utm_medium: '',
+    utm_campaign: '',
+    utm_term: '',
+    utm_content: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -109,6 +114,18 @@ const NR1LandingPage: React.FC = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 100);
     };
+
+    // Capture UTM parameters
+    const params = new URLSearchParams(window.location.search);
+    setFormData(prev => ({
+      ...prev,
+      utm_source: params.get('utm_source') || '',
+      utm_medium: params.get('utm_medium') || '',
+      utm_campaign: params.get('utm_campaign') || '',
+      utm_term: params.get('utm_term') || '',
+      utm_content: params.get('utm_content') || ''
+    }));
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
