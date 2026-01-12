@@ -98,7 +98,8 @@ const NR1LandingPage: React.FC = () => {
   const [formData, setFormData] = useState({
     nome: '',
     email: '',
-    telefone: ''
+    telefone: '',
+    quantidade_funcionarios: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -145,7 +146,7 @@ const NR1LandingPage: React.FC = () => {
     }
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
@@ -589,6 +590,24 @@ const NR1LandingPage: React.FC = () => {
                     placeholder="(00) 00000-0000"
                     className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-4 focus:ring-indigo-100 focus:border-indigo-500 outline-none transition-all font-medium disabled:opacity-50"
                   />
+                </div>
+                <div>
+                  <label className="block text-[10px] font-black uppercase tracking-widest text-slate-400 mb-2">Quantidade de Funcionários</label>
+                  <select
+                    name="quantidade_funcionarios"
+                    required
+                    disabled={isLoading}
+                    value={formData.quantidade_funcionarios}
+                    onChange={handleInputChange}
+                    className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl focus:ring-4 focus:ring-indigo-100 focus:border-indigo-500 outline-none transition-all font-medium disabled:opacity-50 appearance-none cursor-pointer"
+                  >
+                    <option value="" disabled>Selecione uma opção</option>
+                    <option value="0-4">0-4 funcionários</option>
+                    <option value="5-19">5-19 funcionários</option>
+                    <option value="20-99">20-99 funcionários</option>
+                    <option value="100-199">100-199 funcionários</option>
+                    <option value="200+">200+ funcionários</option>
+                  </select>
                 </div>
                 <button
                   type="submit"
