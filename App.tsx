@@ -298,7 +298,7 @@ const NR1LandingPage: React.FC = () => {
             NR1<span className="font-light">naPrática</span>
           </div>
           <div className="flex justify-center">
-            <CountdownWidget targetDate="2025-01-28T09:00:00" compact={true} darkBackground={!scrolled} />
+            <CountdownWidget targetDate="2026-01-28T19:30:00" compact={true} darkBackground={!scrolled} />
           </div>
           <div className="flex justify-end">
             <button
@@ -345,7 +345,7 @@ const NR1LandingPage: React.FC = () => {
               </div>
               <div className="flex items-center justify-center space-x-3 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
                 <Clock className="text-indigo-400" />
-                <span className="font-bold">09:00 (1h30)</span>
+                <span className="font-bold">19:30 (1h30)</span>
               </div>
             </div>
 
@@ -669,7 +669,7 @@ const NR1LandingPage: React.FC = () => {
                   <Calendar className="text-indigo-600 mr-4 mt-1" size={28} />
                   <div>
                     <h4 className="font-black text-slate-900 text-lg">Data e Horário</h4>
-                    <p className="text-slate-600 font-medium">28 de Janeiro, às 09:00</p>
+                    <p className="text-slate-600 font-medium">28 de Janeiro, às 19:30</p>
                   </div>
                 </div>
               </div>
