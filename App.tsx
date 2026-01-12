@@ -23,6 +23,8 @@ import {
   BellRing,
   Sparkles
 } from 'lucide-react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 const expectancyComments = [
   {
@@ -92,7 +94,7 @@ const CountdownWidget = ({ targetDate, compact = false, darkBackground = false }
   );
 };
 
-const App: React.FC = () => {
+const NR1LandingPage: React.FC = () => {
   const [formData, setFormData] = useState({
     nome: '',
     email: '',
@@ -698,4 +700,24 @@ const App: React.FC = () => {
   );
 };
 
+const App: React.FC = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={
+          <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center text-white p-4 text-center">
+            <h1 className="text-4xl font-black mb-4">Aurora PSC</h1>
+            <p className="text-xl text-slate-400">Em breve: Página Principal da Aurora PSC.</p>
+            <a href="/nr1napratica" className="mt-8 px-6 py-3 bg-indigo-600 rounded-full font-bold hover:bg-indigo-700 transition-all">
+              Ver NR1 na Prática
+            </a>
+          </div>
+        } />
+        <Route path="/nr1napratica" element={<NR1LandingPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
 export default App;
+
