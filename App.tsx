@@ -336,7 +336,7 @@ const NR1LandingPage: React.FC = () => {
               Evento Presencial e Gratuito
             </span>
             <h1 className="text-4xl md:text-6xl font-black leading-tight mb-6">
-              Como evitar <span className="text-indigo-400">multas</span> ações trabalhistas e ainda cuidar da saúde mental de seus colaboradores
+              Como evitar <span className="text-indigo-400">multas,</span> ações trabalhistas e ainda cuidar da saúde mental de seus colaboradores
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto font-medium">
               Entenda na prática a principal atualização da NR1: a obrigatoriedade de gerenciar riscos psicossociais no ambiente de trabalho.
