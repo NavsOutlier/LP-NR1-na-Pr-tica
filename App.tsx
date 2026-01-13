@@ -326,9 +326,9 @@ const NR1LandingPage: React.FC = () => {
           <img
             src={heroBg}
             alt="Segurança do trabalho e conformidade"
-            className="w-full h-full object-cover opacity-50"
+            className="w-full h-full object-cover opacity-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/90 to-slate-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/75 to-slate-900/40"></div>
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
