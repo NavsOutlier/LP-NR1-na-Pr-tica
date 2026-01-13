@@ -179,23 +179,23 @@ const NR1LandingPage: React.FC = () => {
 
   const speakers = [
     {
-      name: "Dra. Ana Paula Silveira",
-      role: "Psicóloga Organizacional",
-      bio: "Implementadora de NR1 certificada pelo MEC. Especialista em Comportamento Seguro e Saúde Mental Corporativa, com mais de 15 anos de experiência transformando culturas organizacionais através do gerenciamento de riscos psicossociais.",
+      name: "Louisiane Aurora",
+      role: "Psicóloga Organizacional CRP 04/59645",
+      bio: "Psicóloga Organizacional certificada pelo MEC como Implementadora de Saúde Mental Corporativa (NR1). Especialista em Gestão de Pessoas e atendimento clínico focado em Estresse e Burnout. Experiência prática em estruturação de RH e adequação de empresas à nova NR1.",
       image: louisiImage,
       icon: <BrainCircuit className="text-white" size={24} />,
       accent: "bg-indigo-600"
     },
     {
-      name: "Dra. Valéria",
-      role: "Médica do Trabalho",
-      bio: "Especialista em Medicina Ocupacional e Gestão de Saúde. Atua na linha de frente da prevenção de doenças laborais e na interface entre o eSocial e a saúde do trabalhador, garantindo conformidade técnica e médica às empresas.",
+      name: "Dra. Valeria Lima Salles",
+      role: "Médica do Trabalho CRM:46403",
+      bio: "Especialista pela ANAMT/ AMB em Medicina Ocupacional e Gestão de Saúde. Atua na linha de frente da prevenção de doenças laborais e na interface entre o eSocial e a saúde do trabalhador, garantindo conformidade técnica e médica às empresas. Proprietária da Clínica de Saúde Ocupacional WeCare.",
       image: valeriaImage,
       icon: <Stethoscope className="text-white" size={24} />,
       accent: "bg-blue-600"
     },
     {
-      name: "Eng. Guilherme",
+      name: "Guilherme (...)",
       role: "Engenheiro de Segurança",
       bio: "Especialista em Engenharia de Segurança do Trabalho e Auditor de Sistemas de Gestão. Expertise profunda em elaboração de PGR e implantação da nova NR1 em indústrias de alto risco, focando em redução de custos operacionais e acidentes.",
       image: guilhermeImage,
@@ -203,9 +203,9 @@ const NR1LandingPage: React.FC = () => {
       accent: "bg-slate-700"
     },
     {
-      name: "Dr. Marcos Vinícius",
+      name: "Dr. (...)",
       role: "Advogado Trabalhista",
-      bio: "Especializado em Direito do Trabalho with foco em defesa empresarial e compliance. Atua em ações trabalhistas de alta complexidade, ajudando empresas a blindarem seu patrimônio contra passivos decorrentes de não-conformidade normativa.",
+      bio: "Especializado em Direito do Trabalho com foco em defesa empresarial e compliance. Atua em ações trabalhistas de alta complexidade, ajudando empresas a blindarem seu patrimônio contra passivos decorrentes de não-conformidade normativa.",
       image: advogadoImage,
       icon: <Gavel className="text-white" size={24} />,
       accent: "bg-amber-600"
@@ -332,10 +332,10 @@ const NR1LandingPage: React.FC = () => {
               Evento Presencial e Gratuito
             </span>
             <h1 className="text-4xl md:text-6xl font-black leading-tight mb-6">
-              Como evitar multas que podem chegar a <span className="text-indigo-400">R$ 12.000</span> por trabalhador exposto
+              Como evitar <span className="text-indigo-400">multas</span> ações trabalhistas e ainda cuidar da saúde mental de seus colaboradores
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto font-medium">
-              Entenda na prática o que a NR1 exige para proteger sua empresa contra riscos jurídicos, financeiros e psicossociais.
+              Entenda na prática a principal atualização da NR1: a obrigatoriedade de gerenciar riscos psicossociais no ambiente de trabalho.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 max-w-3xl mx-auto mb-12">
@@ -349,7 +349,7 @@ const NR1LandingPage: React.FC = () => {
               </div>
               <div className="flex items-center justify-center space-x-3 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
                 <Clock className="text-indigo-400" />
-                <span className="font-bold">19:30 (1h30)</span>
+                <span className="font-bold">19:00 (1h30)</span>
               </div>
             </div>
 
@@ -405,16 +405,16 @@ const NR1LandingPage: React.FC = () => {
                 </h2>
               </div>
               <p className="text-slate-600 leading-relaxed text-lg font-medium">
-                Não é apenas sobre evitar multas de R$ 12 mil; é sobre construir uma cultura de segurança moderna onde a produtividade e o bem-estar andam juntos.
+                Não é apenas sobre evitar multas ou passivos trabalhistas, é sobre construir uma cultura de segurança física e psicológica onde a produtividade e o bem-estar andam juntos.
               </p>
               <div className="grid grid-cols-1 gap-y-5">
                 {[
-                  "Impactos reais da NR1 no seu negócio em 2025",
+                  "Impactos reais da NR1 no seu negócio em 2026",
                   "O que a fiscalização realmente cobra (sem surpresas)",
                   "Riscos psicossociais explicados sem juridiquês",
                   "Metodologias de avaliação e programas de intervenção",
                   "Responsabilidades: quem assina e quem responde?",
-                  "Como escolher fornecedores blindados e se proteger"
+                  "Como fortalecer sua marca empregadora e atrair melhores candidatos se adequando à NR1?"
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start bg-white/80 p-5 rounded-2xl border border-slate-200 shadow-sm transition-all hover:border-indigo-300 hover:shadow-md">
                     <CheckCircle className="text-emerald-500 mr-4 mt-1 flex-shrink-0" size={26} />
@@ -541,11 +541,10 @@ const NR1LandingPage: React.FC = () => {
             <div className="lg:w-1/2 relative bg-indigo-700 text-white p-12 flex flex-col justify-center">
               <img
                 src="https://images.unsplash.com/photo-1581092921461-7d65507b73c3?auto=format&fit=crop&q=80&w=1200"
-                alt="Equipe trabalhando"
                 className="absolute inset-0 w-full h-full object-cover opacity-20"
               />
               <div className="relative z-10">
-                <h2 className="text-4xl md:text-5xl font-black mb-8 leading-tight text-white">Clareza e Segurança para sua empresa</h2>
+                <h2 className="text-4xl md:text-5xl font-black mb-8 leading-tight text-white">Faça sua inscrição e tenha Clareza e Segurança para sua empresa</h2>
                 <div className="space-y-6">
                   <div className="flex items-start">
                     <div className="bg-white/20 p-2 rounded-lg mr-4 text-white"><Users size={24} /></div>
