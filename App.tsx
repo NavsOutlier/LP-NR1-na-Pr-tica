@@ -35,7 +35,7 @@ const expectancyComments = [
   {
     name: "Carlos Alberto",
     role: "Diretor de RH",
-    comment: "Minha maior preocupação hoje é como documentar corretamente os riscos psicossociais sem criar um processo lento. Esse evento parece ser a resposta que buscamos."
+    comment: "Minha maior preocupação hoje é como documentar corretamente os riscos psicossociais e investir na saúde mental da minha equipe. Esse evento parece ser a resposta que buscamos."
   },
   {
     name: "Juliana Mendes",
@@ -45,7 +45,7 @@ const expectancyComments = [
   {
     name: "Roberto Silva",
     role: "Proprietário de Indústria",
-    comment: "O valor da multa por trabalhador assusta qualquer empresário. Investir 1h30 em conhecimento preventivo é o melhor seguro que posso ter hoje."
+    comment: "O valor da multa por inadequação assusta qualquer empresário. Investir 1h30 em conhecimento preventivo é o melhor seguro que posso ter hoje."
   }
 ];
 
