@@ -24,6 +24,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import louisiImage from './assets/Louisi.png';
 
 
 const expectancyComments = [
@@ -178,7 +179,7 @@ const NR1LandingPage: React.FC = () => {
       name: "Dra. Ana Paula Silveira",
       role: "Psicóloga Organizacional",
       bio: "Implementadora de NR1 certificada pelo MEC. Especialista em Comportamento Seguro e Saúde Mental Corporativa, com mais de 15 anos de experiência transformando culturas organizacionais através do gerenciamento de riscos psicossociais.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800",
+      image: louisiImage,
       icon: <BrainCircuit className="text-white" size={24} />,
       accent: "bg-indigo-600"
     },
