@@ -442,7 +442,7 @@ const NR1LandingPage: React.FC = () => {
                   </div>
                   <h3 className="text-3xl font-black mb-3 leading-tight">Manejo da Ansiedade</h3>
                   <p className="text-indigo-100 text-lg font-medium">
-                    Treinamento online e prático que vai direto ao ponto: técnicas para equilibrar a saúde mental da sua equipe e aumentar a retenção de talentos com a psicóloga Louisiane Aurora.
+                    Treinamento prático que vai direto ao ponto: técnicas para equilibrar a saúde mental da sua equipe e aumentar a retenção de talentos com a psicóloga Louisiane Aurora.
                   </p>
                 </div>
               </div>
