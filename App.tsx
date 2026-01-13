@@ -184,7 +184,8 @@ const NR1LandingPage: React.FC = () => {
       bio: "Psicóloga Organizacional certificada pelo MEC como Implementadora de Saúde Mental Corporativa (NR1). Especialista em Gestão de Pessoas e atendimento clínico focado em Estresse e Burnout. Experiência prática em estruturação de RH e adequação de empresas à nova NR1.",
       image: louisiImage,
       icon: <BrainCircuit className="text-white" size={24} />,
-      accent: "bg-indigo-600"
+      accent: "bg-indigo-600",
+      linkedin: "https://www.linkedin.com/in/louisiane-aurora-0a6514b6/"
     },
     {
       name: "Dra. Valeria Lima Salles",
@@ -192,7 +193,8 @@ const NR1LandingPage: React.FC = () => {
       bio: "Especialista pela ANAMT/ AMB em Medicina Ocupacional e Gestão de Saúde. Atua na linha de frente da prevenção de doenças laborais e na interface entre o eSocial e a saúde do trabalhador, garantindo conformidade técnica e médica às empresas. Proprietária da Clínica de Saúde Ocupacional WeCare.",
       image: valeriaImage,
       icon: <Stethoscope className="text-white" size={24} />,
-      accent: "bg-blue-600"
+      accent: "bg-blue-600",
+      linkedin: "https://www.linkedin.com/in/valeria-lima-salles-a63a3b14a/"
     },
     {
       name: "Guilherme (...)",
@@ -200,7 +202,8 @@ const NR1LandingPage: React.FC = () => {
       bio: "Especialista em Engenharia de Segurança do Trabalho e Auditor de Sistemas de Gestão. Expertise profunda em elaboração de PGR e implantação da nova NR1 em indústrias de alto risco, focando em redução de custos operacionais e acidentes.",
       image: guilhermeImage,
       icon: <Briefcase className="text-white" size={24} />,
-      accent: "bg-slate-700"
+      accent: "bg-slate-700",
+      linkedin: "#"
     },
     {
       name: "Dr. (...)",
@@ -208,7 +211,8 @@ const NR1LandingPage: React.FC = () => {
       bio: "Especializado em Direito do Trabalho com foco em defesa empresarial e compliance. Atua em ações trabalhistas de alta complexidade, ajudando empresas a blindarem seu patrimônio contra passivos decorrentes de não-conformidade normativa.",
       image: advogadoImage,
       icon: <Gavel className="text-white" size={24} />,
-      accent: "bg-amber-600"
+      accent: "bg-amber-600",
+      linkedin: "#"
     }
   ];
 
@@ -522,10 +526,15 @@ const NR1LandingPage: React.FC = () => {
                     {s.bio}
                   </p>
                   <div className="pt-4 flex items-center space-x-6">
-                    <button className="flex items-center space-x-2 text-slate-500 hover:text-indigo-600 transition-colors font-bold group">
+                    <a
+                      href={s.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-2 text-slate-500 hover:text-indigo-600 transition-colors font-bold group"
+                    >
                       <Linkedin size={22} className="group-hover:scale-110 transition-transform" />
                       <span className="text-base">LinkedIn Profissional</span>
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
