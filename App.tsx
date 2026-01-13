@@ -25,6 +25,9 @@ import {
 } from 'lucide-react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import louisiImage from './assets/Louisi.png';
+import advogadoImage from './assets/Advogado.png';
+import valeriaImage from './assets/Dra Valéria.png';
+import guilhermeImage from './assets/Guilherme engenheiro.png';
 
 
 const expectancyComments = [
@@ -184,18 +187,18 @@ const NR1LandingPage: React.FC = () => {
       accent: "bg-indigo-600"
     },
     {
-      name: "Dr. Roberto Yamamoto",
-      role: "Médico do Trabalho",
+      name: "Dra. Valéria",
+      role: "Médica do Trabalho",
       bio: "Especialista em Medicina Ocupacional e Gestão de Saúde. Atua na linha de frente da prevenção de doenças laborais e na interface entre o eSocial e a saúde do trabalhador, garantindo conformidade técnica e médica às empresas.",
-      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800",
+      image: valeriaImage,
       icon: <Stethoscope className="text-white" size={24} />,
       accent: "bg-blue-600"
     },
     {
-      name: "Eng. Ricardo Fontes",
+      name: "Eng. Guilherme",
       role: "Engenheiro de Segurança",
       bio: "Especialista em Engenharia de Segurança do Trabalho e Auditor de Sistemas de Gestão. Expertise profunda em elaboração de PGR e implantação da nova NR1 em indústrias de alto risco, focando em redução de custos operacionais e acidentes.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800",
+      image: guilhermeImage,
       icon: <Briefcase className="text-white" size={24} />,
       accent: "bg-slate-700"
     },
@@ -203,7 +206,7 @@ const NR1LandingPage: React.FC = () => {
       name: "Dr. Marcos Vinícius",
       role: "Advogado Trabalhista",
       bio: "Especializado em Direito do Trabalho with foco em defesa empresarial e compliance. Atua em ações trabalhistas de alta complexidade, ajudando empresas a blindarem seu patrimônio contra passivos decorrentes de não-conformidade normativa.",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800",
+      image: advogadoImage,
       icon: <Gavel className="text-white" size={24} />,
       accent: "bg-amber-600"
     }
