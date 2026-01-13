@@ -560,6 +560,13 @@ const NR1LandingPage: React.FC = () => {
                       <p className="text-indigo-100 text-sm font-medium">Explicação clara do que você realmente precisa fazer amanhã.</p>
                     </div>
                   </div>
+                  <div className="flex items-start">
+                    <div className="bg-white/20 p-2 rounded-lg mr-4 text-white"><MessageSquareQuote size={24} /></div>
+                    <div>
+                      <h4 className="font-bold text-lg text-white">Tira Dúvidas</h4>
+                      <p className="text-indigo-100 text-sm font-medium">Especialistas habilitados para tirarem todas as suas dúvidas.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
