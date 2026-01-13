@@ -28,6 +28,7 @@ import louisiImage from './assets/Louisi.png';
 import advogadoImage from './assets/Advogado.png';
 import valeriaImage from './assets/Dra Valéria.png';
 import guilhermeImage from './assets/Guilherme engenheiro.png';
+import heroBg from './assets/hero-bg.png';
 
 
 const expectancyComments = [
@@ -323,9 +324,9 @@ const NR1LandingPage: React.FC = () => {
       <section className="relative bg-slate-900 pt-32 pb-20 md:pt-48 md:pb-32 text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop"
+            src={heroBg}
             alt="Segurança do trabalho e conformidade"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-50"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/90 to-slate-900/40"></div>
         </div>
