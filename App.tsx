@@ -207,7 +207,7 @@ const NR1LandingPage: React.FC = () => {
       linkedin: "#"
     },
     {
-      name: "Dr. Lúcio Cassilla",
+      name: "Dr. Lucio Cassilla",
       role: "Advogado Trabalhista",
       bio: "Especializado em Direito do Trabalho com foco em defesa empresarial e compliance. Atua em ações trabalhistas de alta complexidade, ajudando empresas a blindarem seu patrimônio contra passivos decorrentes de não-conformidade normativa.",
       image: advogadoImage,
