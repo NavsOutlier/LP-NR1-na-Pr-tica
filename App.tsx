@@ -191,23 +191,23 @@ const NR1LandingPage: React.FC = () => {
     {
       name: "Dra. Valeria Lima Salles",
       role: "Médica do Trabalho CRM:46403",
-      bio: "Especialista pela ANAMT/ AMB em Medicina Ocupacional e Gestão de Saúde. Atua na linha de frente da prevenção de doenças laborais e na interface entre o eSocial e a saúde do trabalhador, garantindo conformidade técnica e médica às empresas. Proprietária da Clínica de Saúde Ocupacional WeCare.",
+      bio: "Médica especialista pela ANAMT/AMB em Medicina Ocupacional e Gestão de Saúde, com 18 anos de atuação na área de Medicina Ocupacional. Atua na linha de frente da prevenção de doenças laborais e na interface entre o eSocial e a saúde do trabalhador, garantindo conformidade técnica, legal e médica às empresas. Possui ampla experiência como médica coordenadora de empresas multinacionais. É proprietária da Clínica de Saúde Ocupacional WeCare.",
       image: valeriaImage,
       icon: <Stethoscope className="text-white" size={24} />,
       accent: "bg-blue-600",
       linkedin: "https://www.linkedin.com/in/valeria-lima-salles-a63a3b14a/"
     },
     {
-      name: "Guilherme (...)",
-      role: "Engenheiro de Segurança",
-      bio: "Especialista em Engenharia de Segurança do Trabalho e Auditor de Sistemas de Gestão. Expertise profunda em elaboração de PGR e implantação da nova NR1 em indústrias de alto risco, focando em redução de custos operacionais e acidentes.",
+      name: "Guilherme Henrique Balbino",
+      role: "Engenheiro de Segurança CREA - MG:247553D",
+      bio: "Engenheiro Químico (UNIFAL-MG) e Especialista em Engenharia de Segurança do Trabalho (PUC-MG), com formações complementares em Higiene Ocupacional, Ergonomia e Engenharia de Prevenção e Combate a Incêndios (PUC-MG). Atua como Auditor de Sistemas de Gestão, com expertise aprofundada na elaboração de PGR e na implantação da nova NR1 em indústrias de alto risco, com foco na redução de custos operacionais, prevenção de acidentes e conformidade legal.",
       image: guilhermeImage,
       icon: <Briefcase className="text-white" size={24} />,
       accent: "bg-slate-700",
       linkedin: "#"
     },
     {
-      name: "Dr. (...)",
+      name: "Dr. Lúcio Cassila",
       role: "Advogado Trabalhista",
       bio: "Especializado em Direito do Trabalho com foco em defesa empresarial e compliance. Atua em ações trabalhistas de alta complexidade, ajudando empresas a blindarem seu patrimônio contra passivos decorrentes de não-conformidade normativa.",
       image: advogadoImage,
